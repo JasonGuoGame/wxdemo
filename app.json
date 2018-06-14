@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/detail/detail",
+    "pages/book/book",
+    "pages/index/index",
+    "pages/goods-details/index",
+    "pages/shop-cart/index",
+    "pages/to-pay-order/index",
+    "pages/select-address/index",
+    "pages/address-add/index",
+    "pages/order-list/index",
+    "pages/order-details/index",
+    "pages/wuliu/index",
+    "pages/coaches/coaches",
+    "pages/mine/mine",
+    "pages/articles-detail/index",
+    "pages/video/video",
+    "pages/signin/sign-in",
+    "pages/appointment/appointment",
+    "pages/technician/technician",
+    "pages/technicain_detail/technicain_detail",
+    "pages/coaches-detail/coaches-detail",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "WeChat",
+    "backgroundColor": "#000000",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#cccccc",
+    "selectedColor": "#e64340",
+    "borderStyle": "black",
+    "backgroundColor": "#000",
+    "box-shadow": "0 0 6px 0",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "images/nav/home-off.png",
+        "selectedIconPath": "images/nav/home-on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/technician/technician",
+        "text": "技师",
+        "iconPath": "images/skill_icon.png",
+        "selectedIconPath": "images/skill_icon_HL.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "images/user_icon.png",
+        "selectedIconPath": "images/user_icon_HL.png"
+      }
+    ]
+  }
+}
